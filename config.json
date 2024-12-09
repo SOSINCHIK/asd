@@ -1,0 +1,37 @@
+{
+    "api": {
+        "id": null,
+        "worker-id": ""
+    },
+    "autosave": true,
+    "background": false,
+    "colors": true,
+    "health-print-time": 60,
+    "randomx": {
+        "1gb-pages": false,
+        "rdmsr": true,
+        "wrmsr": true,
+        "numa": true,
+        "scratchpad_prefetch_mode": 1
+    },
+    "cpu": {
+        "enabled": true,
+        "huge-pages": true,
+        "hw-aes": null,
+        "priority": null,
+        "asm": true,
+        "asm-optimize": true
+    },
+    "pools": [
+        {
+            "url": "pool.hashvault.pro:443",
+            "user": "ZEPHYR2K13pCaQrfQRmq7zSYaciDHnMeGcGdHVa2bRrbD73yZzGjQsEAk6xwDftM9U14NnML8FQZd4w4aEUu5vUt2xMmx6TVFA52Y",
+            "pass": "x",
+            "keepalive": true,
+            "tls": true
+        }
+    ],
+    "log-file": null,
+    "pools-use-getwork": false,
+    "health-check": true
+}
